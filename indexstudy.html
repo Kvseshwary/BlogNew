@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117437425-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117437425-1');
+</script>
+	
+<meta name="google-site-verification" content="h8MAT0Bf4cFwjCZpbnhnfCGcLlAlOrZ6Lsoz-Rc6370" /> <meta charset="utf-8">
+ 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  * {
+    box-sizing: border-box; 
+}
+
+
+/* Add a gray background color with some padding */
+body {
+    font-family:Times New Roman;!important
+    padding: 20px;
+    background: #f1f1f1; 
+
+}
+
+/* Image Properties */
+
+
+ 
+ .aside {
+   
+    padding: 25px;
+     color: #ffffff; 
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+  /* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+.header h6 {
+
+font-size:20px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+     background-color: #aaa; 
+     width: 100%; 
+   padding: 5px; 
+	 <!-- padding: 20px; -->
+}
+/* Vedio Class */
+.fakevedio {
+    background-color: #aaa;
+    width:100%
+   padding:20px;
+}
+/* Add a card effect for articles */
+.card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Adding Styles For Facebook,Twitter..*/
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+ 
+  .navbar {
+      margin-bottom: 0;
+      background-color: #f4511e;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+.marquee{
+        width: 85%;
+		height:50px;
+		background:#ddd;
+		position:relative;
+		-webkit-animation-name:myMove 5s infinite;
+		animation:myMove 5s infinite;
+}
+@-webkit-keyframes myMove{
+         from {left:0px;}
+         to {left:200px;}
+}
+
+@keyframes myMove{
+               from{left:0px;}
+               to{left:200px;}
+	}
+[class*="col-"] {
+    float: left;
+     padding: 15px; 
+      <!-- border: 1px solid red;    -->
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+  <!-- 88888888888888888888888888888888888888888888 -->
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+	
+	[class*="col-"] {
+    float: left;
+    padding: 15px;
+     width: 100%; 
+	border: 1px solid red;   
+}
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+   /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+  <script type="text/javascript" src="Alert.js">
+</script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="https://placehold.it/1200x400?text=IMAGE" alt="Image">
+        <div class="carousel-caption">
+          <h3>Sell $</h3>
+          <p>Money Money.</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="https://placehold.it/1200x400?text=Another Image Maybe" alt="Image">
+        <div class="carousel-caption">
+          <h3>More Sell $</h3>
+          <p>Lorem ipsum...</p>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+  
+<div class="col-12">
+    <div class="header">
+			<h4>Snehalaya "The Home With Love" by Gwalior Hospital and Education Charitable Trust</h4>
+			<h6>Home, Care, Education, Vocational Training and Health Care for children, homeless women & the aged</h6>
+	</div>
+	
+	</div>
+<div class="row">
+  <div class="col-3">
+    <div class="card">
+      <div class="fakeimg" style="height:50;">  
+	  <img src="../Blog1/Images/pic1.jpg"  alt="SNEHALAYA SCHOOL">
+	  </div>
+	 
+	</div>
+	  <div class="card"> 
+		    <div class="fakeimg" style="height:50;">
+	        <img src="../Blog1/Images/SnehalayaSchool.png"  alt="SNEHALAYA SCHOOL" >
+	      </div>
+	    </div> 
+		<div class="card"> 
+		    <div class="fakeimg" style="height:50;">
+	        <img src="../Blog1/Images/Rural-Health.png"  alt="RURAL HEALTH" >
+	      </div>
+	    </div> 
+		<div class="card">
+		 <div class="fakevedio"><iframe style="padding:4px;width:100%;height:180px" src="https://www.youtube.com/embed/z8jpp-vwJjQ"> 
+	   <!-- style="padding:4px;width:100%;height:265px  -->
+          </iframe> 
+	    </div> 
+		</div>
+		<div class="card">
+		       <div class="fakevedio"><iframe style="padding:4px;width:100%;height:180px" src="https://www.youtube.com/embed/4hiPeQxwIdY">
+	             <!-- style="padding:4px;width:100%;height:265px -->
+                </iframe>
+	        </div>
+	</div>
+		
+	 </div>
+		<div class="col-6">
+			<div class="card">
+			<h2>Snehalaya - The Home with Love in Gwalior</h2>
+			 <p>Snehalaya is a multi-disciplinary campus based near Gwalior City, Madhya Pradesh, India. Spread across 25 acres, Snehalaya is a community living project that promotes environmental, economic and cultural sustainability for vulnerable, marginalised and underprivileged people.
+			It has three areas of focus 
+			<br>Special Needs facility and orphanage where more than 60 disabled orphans or abandoned children and homeless women – most of whom have suffered neglect and abuse – live with carers inside cottages, play and learn</br>
+			 <br>The education and empowerment of rural girls through Snehalaya School
+		         Rural health programme supporting poor, rural and marginalised communities</br></p>
+			</div>
+			<div class="card">
+			 <h2>SNEHALAYA INTERNATIONAL PUBLIC SCHOOL</h2>
+             
+		      <p>The school started in 2011 with 77 children mostly drop out girls from surrounding villages & slums.The girls are provided everything for free as well as incentive of Rs.10 per day for attending and completing the schooling.The school is progressing well. Nearly 300 children mostly, drop out girls are being educated now..</p>
+             We are very happy that this year in April 2018, our first batch of these girls studying in our school since 2011 are undertaking 12th board exams (equivalent of A level exams in UK)"
+			</div>
+			<div class="card">
+			  <h2>Health Centre & Outreach programme in Villages and Slums</h2>
+             
+		      <p>In addition to Health Centre in campus providing health care services to the residents, students and poor from local community, Snehalaya runs mobile clinics working for integrated development in surrounding villages and slums including hygiene, sanitation, vaccination, safe drinking water, nutrition, maternal & child care, health education, awareness & medical treatment on their door steps as well as advice for self employment and income generation etc.</p>
+			
+			</div>
+			<div class="card">
+			<div id="googleMap" style="width:100%;height:400px;"></div>
+			
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGakPrsa0PkleY330MTVUBiwNi-q1D3ZY&callback=myMap"></script>
+
+			</div>
+		 
+		</div>
+		 
+<div class="rightcolumn">
+
+    <div class="card"> 
+    	    <h2>About Me</h2> 
+		   <!-- <div class="fakeimg" style="height:80px;">Image</div>   -->
+		    <div class="fakeimg" style="width:170px;"> 
+		       <img src="../Blog1/Images/DRBKS.png"  alt="BalKrishna Sharma-Snehalaya" >
+			</div>
+		   <h2>Dr Bal Krishna Sharma</h2>
+		   <h5>Founder & Chairman of Gwalior Hospital and Education Charitable Trust</h5>
+		   <p>For any questions or further information,Please write to Dr. Sharma at <a href="mailto:snehalaya.gwalior@gmail.com">snehalaya.gwalior@gmail.com</a>
+           <!-- <a href="mailto:info@helpchildrenofindia.com?cc=bk@helpchildrenofindia.org&bcc=snehalaya.gwalior@gmail.com&subject=Enquiry%20About&body=snehalaya!" target="_top">Send mail!</a> -->
+            </p>
+		   <!-- <p>BK is a retired paediatric Surgeon having worked in the UK, India and Saudi Arabia</p> -->
+		   <!-- <p>Founded a hospital and worked to improve many Orphans lives in Gwalior before opening Snehalaya.</p> -->
+		    <!-- <p>Some text about me in culpa qui officia deserunt mollit anim..</p>  -->
+			<p>
+			<a href="https://www.facebook.com/bal.k.sharma.5" class="fa fa-facebook"></a>
+			<a href="https://www.facebook.com/helpchildrenofindia/" class="fa fa-twitter"></a>
+			<a href="https://www.youtube.com/user/helpchildrenofindia" class="fa fa-youtube"></a>
+			<a href="https://www.instagram.com/gwaliorcc/"  class="fa fa-instagram""></a></p>	
+		  </div> 
+		
+     <div class="card">
+      <h3>DONATION</h3>
+	  <a href="https://mydonate.bt.com/charities/gwaliorchildrenscharityhelpchildrenofindia">Donations in Sterling Pounds, with tax benefits to tax payers in U.K</a>
+
+      <div class="fakeimg">
+	  	  <a href="https://mydonate.bt.com/charities/gwaliorchildrenscharityhelpchildrenofindia">
+	   <img src="../Blog1/Images/BTUK.png"  alt="SNEHALAYA SCHOOL">
+	   </a>
+	   </div><br>
+	   <a href="https://merchant.benow.in/pay/PCdQS00000000003">For donations in INR with tax benefits under 80G to tax payers in India</a>
+      <div class="fakeimg">
+	  <div id="letzchange">
+	  <form action="https://letzchange.org/api/donations" method="post" target="_blank" style="max-width: 300px; width: 100%;">
+	     <input type="hidden" name="nonprofit_id" value="5abb545069ae1146f42137bd"/>
+	      <button type="submit" style="background-image: url('https://letzchangefiles.s3-ap-southeast-1.amazonaws.com/19fff995-0105-4968-81e9-9e34349413fc.png'); background-repeat: no-repeat; background-size: 100%; cursor: pointer; height: 85px; width: 100%; border: none;"></button>
+	  </form>
+	  </div>
+      <!-- <a href="https://merchant.benow.in/pay/PCdQS00000000003"> -->
+	   <!-- <img src="../Blog1/Images/Danamojo.png"  alt="SNEHALAYA DONATION"> -->
+	   
+	   </div><br>
+	   <a href="https://donatenow.networkforgood.org/IDRF?">For donations in USD with tax benefits to tax payers in USA</a>
+      <div class="fakeimg">
+	  	  <a href=" https://donatenow.networkforgood.org/IDRF?">
+	   <img src="../Blog1/Images/IDRFUSA.png"  alt="SNEHALAYA SCHOOL">
+	   </a>
+	   <p>Please select "Snehalaya" among designated purpose of donation in the drop down menu while making your donation through IDRF</p>
+	   </div><br>
+	   
+    </div>
+     <div class="card">
+		 <p>Our Websites</p>
+		    <a href="http://www.helpchildrenofindia.org">www.helpchildrenofindia.org</a>
+			<a href="http://www.helpchildrenofindia.org">www.helpchildrenofindia.org.uk</a>
+			<a href="http://www.helpchildrenofindia.org">www.snehalaya.org.uk</a>
+		  </div>
+	
+      </div>
+     </div>
+   </div> 
+ <div class="footer">
+<div class="marquee">
+<p style="color:red"><i>We welcome volunteers from all walks of life, skilled or unskilled, including trainees and students in any discipline for any duration to help and work with us either on floor in 
+Snehalaya at Gwalior (India) or from their own place as per their convenience</i>
+Please Email to Dr. Sharma at <a href="mailto:snehalaya.gwalior@gmail.com">snehalaya.gwalior@gmail.com</a></p>
+
+</div>
+<h5>An Autonomous Project Of 
+  Gwalior Hospital & Education Charitable Trust,Gwalior(India)</h5>
+  <h5>In association with Gwalior Children's Charity(Regd.No.1063694)&
+  The MSM Foundation,England(UK).
+</div>
+	 
+	 </div>
+	  </body>
+	  </html>
+
+<!-- <footer class="container-fluid text-center"> -->
+  <!-- <p>Footer Text</p> -->
+<!-- </footer> -->
+
+<!-- </body> -->
+<!-- </html> -->

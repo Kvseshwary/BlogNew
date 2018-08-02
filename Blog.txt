@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="google-site-verification" content="k2Oxgl2Uct32VjbQwftDXUDXqy4_C4mEoMJqHq0bJU8" />
+<title>Snehalaya Gwalior Children Charity</title>
+<meta name="description" content="UK charity in India,NGO,Snehalaya homeless women&aged,children,education support, Gwalior Children's Charity UK"></meta>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+    font-family:Times New Roman;
+    padding: 20px;
+    background: #f1f1f1;
+
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+.header h6 {
+
+font-size:20px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Adding Styles For Facebook,Twitter..*/
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h4>Snehalaya "The Home With Love" by Gwalior Hospital and Education Charitable Trust</h4>
+  <h6>Home, Care, Education, Vocational Training and Health Care for children, homeless women & the aged</h6>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Gwalior Children's Charity UK</h2>
+      <h5>Education,Health Care for children,homeless women & aged</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+ <p>Snehalaya is a multi-disciplinary campus based near Gwalior City, Madhya Pradesh, India. Spread across 25 acres, Snehalaya is a community living project that promotes environmental, economic and cultural sustainability for vulnerable, marginalised and underprivileged people.
+It has three areas of focus 
+<br>Special Needs facility and orphanage where more than 60 disabled orphans or abandoned children and homeless women – most of whom have suffered neglect and abuse – live with carers inside cottages, play and learn</br>
+<br>The education and empowerment of rural girls through Snehalaya School</br>
+<br>Rural health programme supporting poor, rural and marginalised communities</br></p>
+    </div>
+    <div class="card">
+      <h2>SNEHALAYA INTERNATIONAL PUBLIC SCHOOL</h2>
+      <h5>Portfolio, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+     <p>The school started in July 2017 with 77 children mostly drop out girls from surrounding villages & slums.The girl's are provided everything for free as well as incentive of Rs10 per day for attending the school.The school is progressing very well.Nearly 300 children mostly,drop out girls are educated.</p>
+      <p>Snehalaya work for integrated development in surrounding villages and slums including hygine,sanitation,vaccination,safe drinking water,nutition,maternal & child care,health education,awarness & treatment on their door steps as well as advice for income generation</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>DONATION</h3>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+	  <a href="#" class="fa fa-facebook"></a>
+	  <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-google"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+<h5>An Autonomous Project Of 
+  Gwalior Hospital & Education Charitable Trust,Gwalior(India)</h5>
+  <h5>In association with Gwalior Children's Charity(Regd.No.1063694)&
+  The MSM Foundation,England(UK).
+</div>
+
+</body>
+</html>

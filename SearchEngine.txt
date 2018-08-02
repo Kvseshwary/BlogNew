@@ -1,0 +1,28 @@
+CRAWL, See the pages CRAWLERS SPIDERS BOTS
+
+Title tag description important to rank
+Description unique titles on each page of your website
+Image name should be proper not image.jpg
+peppr-mint-icecream.jpg
+Alt tab description for images to better understand
+
+
+The purpose is to crawl webpage look new links ,content in webpage 
+aadd it to its index
+
+INDEX, Divide each content and index
+
+Gigantic list of all contents found by crawling or bots 
+
+index :kvseshwary.gitHub
+
+
+RANKING ,Which content is more useful for searches
+
+
+Answer HOW,WHERE ..
+To FIND ABOUT BEST CHARITY IN INDIA
+
+SEM ADWORDS
+
+Advertising by paid method
